@@ -225,3 +225,18 @@ h2 {
   background-color: #222;
   padding: 20px;
 }
+
+/* Borda arredondada */
+.rounded-border {
+  border: 5px solid #333;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.rounded-border-2 {
+  background-color: #111;
+  border-radius: 25px;
+  padding: 15px;
+  color: blue;
+}
