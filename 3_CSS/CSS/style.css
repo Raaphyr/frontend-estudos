@@ -212,3 +212,16 @@ h2 {
   border: 2px dotted #931;
   padding: 25px;
 }
+
+/* Borda individual */
+.border-left {
+  border-left: 3px solid blue;
+  background-color: #222;
+  padding: 25px;
+}
+
+.border-bottom {
+  border-bottom: 5px double green;
+  background-color: #222;
+  padding: 20px;
+}
