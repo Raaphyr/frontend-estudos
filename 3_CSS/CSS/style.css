@@ -278,3 +278,17 @@ h2 {
   border: 2px solid #000;
   text-align: center;
 }
+
+/* Text Decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: red;
+}
