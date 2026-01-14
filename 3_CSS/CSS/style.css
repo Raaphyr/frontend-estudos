@@ -240,3 +240,20 @@ h2 {
   padding: 15px;
   color: blue;
 }
+
+/* Margem */
+.margin {
+  margin: 20px;
+  background-color: #222;
+}
+
+.margin-top {
+  margin-top: 30px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.margin-shorthand {
+  margin: 10px 20px 30px 40px;
+  background-color: #444;
+}
