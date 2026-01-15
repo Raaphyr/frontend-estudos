@@ -327,3 +327,12 @@ h2 {
 .fantasy {
   font-family: fantasy;
 }
+
+/* Font Style */
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
