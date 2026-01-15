@@ -452,3 +452,14 @@ h2 {
   top: 20px;
   left: 20px;
 }
+
+/* Position sticky */
+.sticky-box {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border: 1px solid blue;
+  position: sticky;
+  top: 20px;
+  left: 100px;
+}
