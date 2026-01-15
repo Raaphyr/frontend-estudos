@@ -301,3 +301,8 @@ h2 {
 .lower {
   text-transform: lowercase;
 }
+
+/* Letter Spacing */
+.letter-spacing {
+  letter-spacing: 5px;
+}
