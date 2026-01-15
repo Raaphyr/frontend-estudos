@@ -292,3 +292,12 @@ h2 {
   text-decoration: none;
   color: red;
 }
+
+/* Text Transform */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
