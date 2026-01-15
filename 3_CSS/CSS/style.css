@@ -406,3 +406,13 @@ h2 {
   top: 100px;
   left: 40px;
 }
+
+/* Position absolute */
+.absolute-box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  top: 100px;
+  left: 100px;
+}
