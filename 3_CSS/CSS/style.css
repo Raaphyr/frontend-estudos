@@ -383,3 +383,8 @@ h2 {
   margin: 100px;
   display: block;
 }
+
+/* Escondendo elementos */
+.invisible {
+  display: none;
+}
