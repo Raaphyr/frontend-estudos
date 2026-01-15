@@ -463,3 +463,33 @@ h2 {
   top: 20px;
   left: 100px;
 }
+
+/* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  position: absolute;
+}
+
+.absolute-3 {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.absolute-4 {
+  top: 10px;
+  left: 10px;
+  background-color: #a5f;
+  z-index: 2;
+}
+
+.absolute-5 {
+  top: 40px;
+  left: 40px;
+  background-color: #ff6347;
+  z-index: 1;
+}
