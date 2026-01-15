@@ -388,3 +388,11 @@ h2 {
 .invisible {
   display: none;
 }
+
+/* Position static */
+.static-box {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+}
