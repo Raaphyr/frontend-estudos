@@ -416,3 +416,28 @@ h2 {
   top: 100px;
   left: 100px;
 }
+
+/* Absolute e relative */
+.relative-container {
+  width: 400px;
+  height: 400px;
+  border: red 2px solid;
+  margin-top: 120px;
+  position: relative;
+}
+
+.absolute-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+}
+
+.absolute-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  top: 150px;
+  left: 150px;
+}
