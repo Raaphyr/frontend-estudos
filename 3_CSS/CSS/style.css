@@ -396,3 +396,13 @@ h2 {
   height: 200px;
   background-color: #333;
 }
+
+/* Position relative */
+.relative-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  top: 100px;
+  left: 40px;
+}
