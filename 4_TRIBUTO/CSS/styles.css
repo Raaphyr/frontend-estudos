@@ -21,7 +21,7 @@ header {
   margin-bottom: 20px;
 }
 
-.main-title {
+.title {
   font-size: 40px;
   margin: 0;
 }
@@ -51,4 +51,37 @@ header {
 }
 .biography-container p {
   line-height: 1.6;
+}
+
+/* Quotes */
+.quote-container {
+  background-color: #ddd;
+  padding: 30px;
+}
+.quote-container blockquote {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.quote-container p {
+  font-style: italic;
+  margin: 0;
+}
+
+/* Curiosidades */
+.curiosities-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+  height: 30px;
+}
+
+/* Imagem bold */
+.img-bold {
+  font-weight: bold;
+  text-align: center;
 }
