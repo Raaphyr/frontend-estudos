@@ -1,3 +1,54 @@
-h1 {
-  color: #333;
+html {
+  font-family: helvetica;
+  background-color: #ddd;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-size: 40px;
+  margin: 0;
+}
+
+.main-paragraph {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Imagem destaque */
+.featured-image {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Biografia */
+.biography-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+.biography-container p {
+  line-height: 1.6;
 }
