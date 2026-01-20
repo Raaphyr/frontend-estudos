@@ -1,16 +1,29 @@
-/* media query */
-@media (max-width: 768px) {
+/* 2 - media query */
+@media screen and (max-width: 768px) {
   h1 {
     color: red;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   h1 {
     color: blue;
   }
 }
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
   h1 {
     color: green;
+  }
+}
+
+/* 3 - min width */
+p {
+  background-color: red;
+  color: #000;
+}
+
+@media screen and (min-width: 600px) {
+  p {
+    background-color: #789;
+    color: red;
   }
 }
