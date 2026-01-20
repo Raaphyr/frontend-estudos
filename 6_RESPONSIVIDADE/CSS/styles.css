@@ -1,0 +1,16 @@
+/* media query */
+@media (max-width: 768px) {
+  h1 {
+    color: red;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    color: blue;
+  }
+}
+@media (min-width: 1025px) {
+  h1 {
+    color: green;
+  }
+}
