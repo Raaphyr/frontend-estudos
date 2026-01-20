@@ -21,6 +21,9 @@ The main focus is practice and progressive learning of core frontend technologie
 
 ```txt
 frontend-estudos/
- ├── 1_Intro/      → Conceitos iniciais de front-end
- ├── 2_HTML/      → Exercícios e aulas sobre HTML
- └── 3_CSS/       → Exercícios e aulas sobre CSS
+ ├── 1_Intro/           → Conceitos iniciais de front-end
+ ├── 2_HTML/            → Exercícios e aulas sobre HTML
+ ├── 3_CSS/             → Exercícios e aulas sobre CSS
+ ├── 4_TRIBUTO/         → Projeto de página de tributo
+ ├── 5_FORM/            → Projeto de formulário
+ └── 6_RESPONSIVIDADE/  → Exercícios e práticas de responsividade
