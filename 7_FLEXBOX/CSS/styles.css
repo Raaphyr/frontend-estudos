@@ -60,3 +60,40 @@ body {
 .end {
   justify-content: flex-end;
 }
+
+/* 5 - Align Items */
+.align-start,
+.align-items-center,
+.align-items-end,
+.align-items-stretch {
+  display: flex;
+  margin-bottom: 20px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.align-items-center .box,
+.align-items-end .box,
+.align-items-stretch .box {
+  width: 60px;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-stretch .box {
+  height: auto;
+}
