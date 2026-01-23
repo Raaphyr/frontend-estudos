@@ -2,22 +2,23 @@ body {
   padding-bottom: 500px;
 }
 
-/* 1 - Flex */
+/* 1 - flex */
 .flex {
   display: flex;
   background-color: #ddd;
   margin-bottom: 20px;
 }
 
-/* 2 - Column */
+/* 2 - flex column */
 .flex-column {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
+  margin-bottom: 20px;
 }
 
-/* 3 - Wrap */
-.flex-wrap {
+/* 3 - wrap */
+.wrap {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -29,76 +30,73 @@ body {
   border: 1px solid red;
 }
 
-/* 4 - Justify Content */
+/* 4 - justify content */
 .center,
-.space-between,
 .space-around,
+.space-between,
 .end {
   display: flex;
   margin-bottom: 20px;
 }
 
 .center .box,
-.space-between .box,
 .space-around .box,
+.space-between .box,
 .end .box {
-  width: 60px;
+  width: 50px;
 }
 
 .center {
   justify-content: center;
 }
 
-.space-between {
-  justify-content: space-between;
-}
-
 .space-around {
   justify-content: space-around;
 }
 
-.end {
-  justify-content: flex-end;
+.space-between {
+  justify-content: space-between;
 }
 
-/* 5 - Align Items */
-.align-start,
-.align-items-center,
-.align-items-end,
-.align-items-stretch {
+.end {
+  justify-content: end;
+}
+
+/* align items */
+.center,
+.align-center,
+.flex-end,
+.stretch {
   display: flex;
   margin-bottom: 20px;
   height: 200px;
   border: 1px solid blue;
 }
 
-.align-items-center .box,
-.align-items-end .box,
-.align-items-stretch .box {
-  width: 60px;
+.align-center .box,
+.flex-end .box,
+.stretch .box {
+  width: 50px;
 }
 
-.align-start {
-  align-items: flex-start;
-}
-
-.align-items-center {
+.align-center {
   align-items: center;
+  justify-content: center;
 }
 
-.align-items-end {
+.flex-end {
   align-items: flex-end;
 }
 
-.align-items-stretch {
+.stretch {
   align-items: stretch;
 }
 
-.align-items-stretch .box {
+.stretch .box {
   height: auto;
 }
 
-/* 6 - Gap */
+/* gap */
 .gap {
   display: flex;
   flex-wrap: wrap;
@@ -111,20 +109,32 @@ body {
   width: 32%;
 }
 
-/* 7 - Order */
+/* order */
 .order {
   display: flex;
 }
 
-#um {
+#one {
   order: 1;
 }
-#dois {
+
+#two {
   order: 2;
 }
-#tres {
+
+#three {
   order: 3;
 }
-#quatro {
-  order: 4;
+
+/* grow */
+.grow {
+  display: flex;
+}
+
+.grow .box {
+  flex: 1;
+}
+
+.grow .big {
+  flex: 2;
 }
