@@ -28,3 +28,35 @@ body {
   width: 33%;
   border: 1px solid red;
 }
+
+/* 4 - Justify Content */
+.center,
+.space-between,
+.space-around,
+.end {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.center .box,
+.space-between .box,
+.space-around .box,
+.end .box {
+  width: 60px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.end {
+  justify-content: flex-end;
+}
