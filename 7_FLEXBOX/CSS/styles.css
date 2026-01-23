@@ -110,3 +110,21 @@ body {
 .gap .box {
   width: 32%;
 }
+
+/* 7 - Order */
+.order {
+  display: flex;
+}
+
+#um {
+  order: 1;
+}
+#dois {
+  order: 2;
+}
+#tres {
+  order: 3;
+}
+#quatro {
+  order: 4;
+}
