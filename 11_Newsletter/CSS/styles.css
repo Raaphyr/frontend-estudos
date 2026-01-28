@@ -1,0 +1,36 @@
+/* Tema claro / escuro */
+:root {
+  --bg: #fff;
+  --texto: #111;
+  --borda: #e5e7eb;
+  --caixa: #f8fafc;
+  --acao: #2563eb;
+}
+
+[data-tema="escuro"] {
+  --bg: #0b1220;
+  --texto: #e5e7eb;
+  --borda: #1f2937;
+  --caixa: #111827;
+  --acao: #38bdf8;
+}
+
+/* Estilos padrão */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  counter-reset: var(--texto);
+}
