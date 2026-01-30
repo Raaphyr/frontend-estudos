@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--bg);
-  counter-reset: var(--texto);
+  color: var(--texto);
 }
 
 .topo {
@@ -41,8 +41,8 @@ body {
 
 .topo .container {
   display: flex;
-  justify-content: space-between;
-  align-items: space-around;
+  align-items: center;
+  justify-content: space-around;
   padding: 0.75rem 1rem;
 }
 
@@ -88,7 +88,7 @@ input {
   color: var(--texto);
   border-radius: 0.5rem;
   cursor: pointer;
-  margin-top: 1rem;
+  max-width: 200px;
 }
 
 .btn.primario {
